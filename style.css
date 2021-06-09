@@ -1,0 +1,833 @@
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css');
+
+/* *****************************header*******************************  */
+
+body {
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.header {
+    height          : 795px;
+    width           : 100%;
+    background-image: url('/Images/bg.jpg');
+    background-size : cover;
+    position        : relative;
+}
+
+.navbar {
+    background-color: #262627;
+    display         : flex;
+    height          : 100px;
+}
+
+.navbar img {
+    height     : 70px;
+    width      : auto;
+    margin-left: 85px;
+}
+
+.nav-links {
+    text-align     : center;
+    justify-content: center;
+    align-items    : center;
+    text-align     : center;
+    padding-top    : 1%;
+}
+
+.nav-links ul li {
+    list-style : none;
+    display    : inline-block;
+    position   : relative;
+    font-family: 'Oswald', sans-serif;
+}
+
+.nav-links ul li a {
+    color          : #fff;
+    text-decoration: none;
+    font-size      : 27px;
+    padding        : 25px;
+    text-transform : uppercase;
+    font-family    : 'Oswald', sans-serif;
+}
+
+.navbar i {
+    color        : #fff;
+    font-size    : 30px;
+    padding-right: 4%;
+}
+
+.container {
+    max-width  : 600px;
+    position   : relative;
+    margin-top : 270px;
+    margin-left: 80px;
+    color      : #fff;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container h1 {
+    font-size: 105px;
+}
+
+.container p {
+    font-family: 'Montserrat', sans-serif;
+    font-size  : 28px;
+    padding    : 2%;
+}
+
+.btn {
+    background-color: rgb(248, 92, 13);
+    border          : none;
+    text-transform  : uppercase;
+    font-size       : 33px;
+    padding         : 7px 65px;
+    color           : #fff;
+}
+
+/* *****************************Tour*******************************  */
+
+.tour {
+    background        : url(/Images/tour.jpg) no-repeat;
+    background-size   : cover;
+    margin            : auto;
+    text-align        : center;
+    padding           : 100px 0;
+    color             : #fff;
+    /* height         : 960px; */
+}
+
+.tour .title h1 {
+    font-size     : 70px;
+    font-weight   : 700;
+    text-transform: uppercase;
+}
+
+.tour .title p {
+    font-family: 'Montserrat', sans-serif;
+    font-size  : 25px;
+    padding    : 20px;
+}
+
+.tour .cards {
+    max-width      : 90%;
+    margin         : auto;
+    margin-top     : 5%;
+    display        : flex;
+    justify-content: space-around;
+}
+
+.tour .cards .card {
+    background-color: #262627;
+    padding         : -5px;
+    border          : none;
+    width           : 374px;
+    height          : 492px;
+}
+
+.tour .cards .card img {
+    width: 100%;
+}
+
+.card .country {
+    padding: 24px 13px;
+}
+
+.card .country h2 {
+    text-transform: uppercase;
+    font-size     : 40px;
+}
+
+.card .country p {
+    font-family: 'Montserrat', sans-serif;
+    font-size  : 20px;
+}
+
+/* *****************************Pricing*******************************  */
+
+.brock {
+    background        : url(/Images/price.jpg) no-repeat;
+    background-size   : cover;
+    text-align        : center;
+    color             : #fff;
+    margin            : auto;
+    padding           : 100px 0;
+    /* height         : 960px; */
+}
+
+.brock .title h1 {
+    font-size     : 70px;
+    font-weight   : 700;
+    text-transform: uppercase;
+}
+
+.brock .title p {
+    font-family: 'Montserrat', sans-serif;
+    font-size  : 25px;
+    padding    : 20px;
+}
+
+.brock .stamps {
+    max-width      : 90%;
+    margin         : auto;
+    margin-top     : 5%;
+    display        : flex;
+    justify-content: space-around;
+}
+
+.brock .stamps .stamp {
+    background-color: rgb(231, 92, 10);
+    padding         : 5% 1%;
+    border-radius   : 7px;
+    width           : 374px;
+    height          : 495px;
+}
+
+.brock .stamps .stamp h2 {
+    text-transform: uppercase;
+    font-size     : 40px;
+    margin-top    : 15%;
+}
+
+.brock .stamps .stamp p {
+    font-family: 'Montserrat', sans-serif;
+    font-size  : 20px;
+    margin-top : 5%;
+}
+
+.brock .stamps .stamp .dollar {
+    color           : white;
+    width           : 100%;
+    height          : 65px;
+    background-color: #262627;
+    border          : none;
+    text-transform  : uppercase;
+    font-size       : 33px;
+    padding         : 5px 65px;
+    border-radius   : 5px;
+    margin-top      : 3%;
+}
+
+/* *****************************Amazing Dance*******************************  */
+
+.adance {
+    display        : flex;
+    margin         : auto;
+    color          : #fff;
+    justify-content: space-around;
+}
+
+.adance .image img {
+    /* height: 955px; */
+    width: 760px;
+}
+
+.adance .all {
+    background     : url(/Images/amazing.jpg) no-repeat;
+    background-size: cover;
+}
+
+.adance .content {
+    margin-top: 280px;
+    padding   : 11%;
+}
+
+.adance .content h1 {
+    font-size     : 70px;
+    font-weight   : 700;
+    text-transform: uppercase;
+}
+
+.adance .content p {
+    font-family: 'Montserrat', sans-serif;
+    margin     : 40px 0;
+    font-size  : 25px;
+}
+
+.adance .content .btn {
+    background-color: #262627;
+    margin-top      : 25px;
+    border          : none;
+}
+
+/* *****************************Best Dance*******************************  */
+
+.best {
+    display        : flex;
+    margin         : auto;
+    color          : #fff;
+    justify-content: space-around;
+}
+
+.best .image img {
+    width: 760px;
+}
+
+.best .all {
+    background        : url(/Images/best.jpg) no-repeat;
+    background-size   : cover;
+    /* background     : rgb(231, 92, 10); */
+}
+
+.best .content {
+    margin-top: 280px;
+    padding   : 11%;
+}
+
+.best .content h1 {
+    font-size     : 70px;
+    font-weight   : 700;
+    text-transform: uppercase;
+}
+
+.best .content p {
+    font-family: 'Montserrat', sans-serif;
+    margin     : 40px 0;
+    font-size  : 25px;
+}
+
+.best .content .btn {
+    background-color: #262627;
+    margin-top      : 25px;
+    border          : none;
+}
+
+/* *****************************OUR STATISTICS*******************************  */
+
+.statistic {
+    /* width           : 1496px; */
+    background-color: #262627;
+}
+
+.statistic .content {
+    display         : flex;
+    flex-direction  : column;
+    justify-content : center;
+    text-align      : center;
+    align-items     : center;
+    background-color: #262627;
+    color           : white;
+    padding-bottom  : 200px;
+}
+
+.statistic .content h1 {
+    margin-top   : 150px;
+    margin-bottom: 50px;
+    font-size    : 70px;
+    font-weight  : 700;
+}
+
+.statistic .content p {
+    width        : 50%;
+    margin-bottom: 100px;
+    font-size    : 30px;
+    font-family  : 'Montserrat', sans-serif;
+}
+
+.row .col .num {
+    font-size  : 67px;
+    font-weight: 900;
+}
+
+.row .col .info {
+    font-size  : 42px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* *****************************HERBERT SIMON*******************************  */
+
+.herbert {
+    width          : 100%;
+    background     : url(/Images/8.PNG) no-repeat;
+    background-size: cover;
+}
+
+.herbert .content {
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    text-align     : center;
+    align-items    : center;
+    color          : #fff;
+    height         : 970px;
+}
+
+.content .text {
+    width        : 50%;
+    margin-top   : 200px;
+    margin-bottom: 200px;
+    font-size    : 50px;
+    font-family  : 'Montserrat', sans-serif;
+}
+
+.content .text h1 {
+    margin-top    : 50px;
+    font-size     : 70px;
+    font-weight   : 700;
+    font-family   : 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.content .text p {
+    font-family: 'Montserrat', sans-serif;
+    font-size  : 40px;
+}
+
+
+/* *****************************SUBSCRIBE*******************************  */
+
+.subscribe {
+    width           : 100%;
+    height          : 590px;
+    background-image: url(/Images/7.jpg);
+    background-size : cover;
+    display         : flex;
+    flex-direction  : column;
+    justify-content : center;
+    align-items     : center;
+    text-align      : center;
+}
+
+.subscribe-text {
+    display        : flex;
+    flex-direction : column;
+    text-align     : center;
+    justify-content: center;
+    align-items    : center;
+}
+
+.subscribe-text h1 {
+    font-size  : 70px;
+    font-weight: 700;
+    color      : #fff;
+    font-family: 'Oswald', sans-serif;
+}
+
+.subscribe-text p {
+    width      : 60%;
+    font-size  : 30px;
+    color      : #fff;
+    margin-top : 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.signup-form {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.signup-form-input {
+    width         : 550px;
+    height        : 3.3rem;
+    border        : none;
+    font-size     : 22px;
+    letter-spacing: 0.1rem;
+    color         : #000;
+    margin-top    : 40px;
+}
+
+.signup-form-input::placeholder {
+    padding-left: 5%;
+    color       : #858383;
+    font-family : 'Oswald', sans-serif;
+}
+
+.signup-form-btn {
+    position        : relative;
+    width           : 225px;
+    height          : 3.3rem;
+    background-color: #262627;
+    color           : #fff;
+    border          : none;
+    border-radius   : 2px;
+    font-size       : 23px;
+    cursor          : pointer;
+    margin-top      : 40px;
+    font-family     : 'Oswald', sans-serif;
+}
+
+/* *****************************FOOTER*******************************  */
+
+.footer {
+    padding   : 100px 20px 20px;
+    background: #303030;
+}
+
+.container-f {
+    display  : flex;
+    flex-wrap: wrap;
+}
+
+.container-f .rows {
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-around;
+}
+
+.container-f .rows .colm {
+    width        : 40%;
+    padding-right: 50px;
+}
+
+.footer h1 {
+    font-size    : 33px;
+    margin-top   : 15px;
+    margin-bottom: 25px;
+    color        : white;
+}
+
+.footer p {
+    text-align : left;
+    color      : white;
+    font-family: 'Montserrat', sans-serif;
+    font-size  : 21px;
+}
+
+.colm1 p {
+    text-transform: capitalize;
+}
+
+.social-links {
+    display        : flex;
+    flex-direction : row;
+    width          : 40%;
+    margin-left    : -12px;
+    justify-content: space-around;
+}
+
+.social-links .icon {
+    height          : 40px;
+    width           : 40px;
+    background-color: white;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    text-align      : center;
+    border-radius   : 50%;
+    font-size       : 25px;
+}
+
+@media only screen and (max-width: 1290px) {
+
+    .tour .cards {
+        max-width: 100%;
+        margin   : auto;
+    }
+
+    .tour .cards .card {
+        border: none;
+        width : 320px;
+    }
+
+    .tour .cards .card img {
+        height: 300px;
+    }
+
+    .brock .stamps {
+        max-width: 100%;
+        margin   : auto;
+    }
+
+    .brock .stamps .stamp {
+        width: 320px;
+    }
+
+    .brock .stamps .stamp .dollar {
+        height : 65px;
+        padding: 5px 65px;
+    }
+
+    .adance {
+        display: grid;
+    }
+
+    .adance .image img {
+        width: 100%;
+    }
+
+    .adance .content {
+        margin: auto;
+    }
+
+    .best {
+        display: grid;
+    }
+
+    .best .image img {
+        width: 100%;
+    }
+
+    .best .content {
+        margin: auto;
+    }
+
+    .best .content .btn {
+        background-color: #262627;
+        margin-top      : 25px;
+        border          : none;
+    }
+
+    .social-links {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .navbar img {
+        display: none;
+    }
+
+    .nav-links {
+        padding-top: 1%;
+    }
+
+    .nav-links ul li {
+        margin-left: -30px;
+    }
+
+    .container {
+        margin-top: 20%;
+    }
+
+    .tour .cards {
+        display: flex;
+    }
+
+    .tour .cards .card {
+        border: none;
+        width : 250px;
+    }
+
+    .brock .stamps {
+        display: flex;
+    }
+
+    .brock .stamps .stamp {
+        width: 250px;
+    }
+
+    .content .text {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .container {
+        margin-left: auto;
+    }
+
+    .tour .cards {
+        display: inline-block;
+    }
+
+    .tour .cards .card {
+        width     : 374px;
+        height    : 492px;
+        margin-top: 5%;
+    }
+
+    .brock .stamps {
+        display: inline-block;
+    }
+
+    .brock .stamps .stamp {
+        width     : 374px;
+        height    : 492px;
+        margin-top: 5%;
+    }
+
+    .content .text {
+        width: 100%;
+    }
+
+    .statistic .content p {
+        width: 70%;
+    }
+
+    .subscribe-text p {
+        width: 80%;
+    }
+
+    .signup-form-input {
+        width: 400px;
+    }
+
+    .signup-form-btn {
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+
+    .navbar i {
+        display: none;
+    }
+
+    .statistic .content p {
+        width: 90%;
+    }
+
+    .signup-form {
+        display        : flex;
+        justify-content: center;
+        align-items    : center;
+    }
+
+    .signup-form-input {
+        width: 300px;
+    }
+
+    .signup-form-btn {
+        width    : 100px;
+        font-size: 20px;
+    }
+
+    .container-f {
+        margin-top: -50px;
+    }
+
+    .container-f .rows .colm {
+        width        : 100%;
+        padding-right: 0;
+    }
+
+    .social-links {
+        width: 50%;
+    }
+
+    .container-f .rows {
+        display   : inline-block;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    .navbar i {
+        display: none;
+    }
+
+    .header {
+        height: 600px;
+    }
+
+    .container h1 {
+        font-size: 70px;
+    }
+
+    .btn {
+        font-size: 30px;
+        padding  : 7px 65px;
+    }
+
+    .tour .title h1 {
+        font-size  : 50px;
+        font-weight: 600;
+    }
+
+    .tour .cards .card {
+        width : 300px;
+        height: 470px;
+    }
+
+    .brock .title h1 {
+        font-size  : 50px;
+        font-weight: 600;
+    }
+
+    .brock .stamps .stamp {
+        width : 300px;
+        height: 470px;
+    }
+
+    .adance .content {
+        padding: 2%;
+    }
+
+    .adance .content h1 {
+        font-size  : 50px;
+        font-weight: 600;
+    }
+
+    .adance .content .btn {
+        margin-top: 15px;
+    }
+
+    .best .content {
+        padding: 2%;
+    }
+
+    .best .content h1 {
+        font-size  : 50px;
+        font-weight: 600;
+    }
+
+    .best .content .btn {
+        margin-top: 15px;
+    }
+
+    .statistic .content {
+        padding-bottom: 50px;
+    }
+
+    .statistic .content h1 {
+        margin-top   : 50px;
+        margin-bottom: 50px;
+        font-size    : 50px;
+        font-weight  : 600;
+    }
+
+    .statistic .content p {
+        width: 90%;
+    }
+
+    .row .col .num {
+        font-size: 47px;
+    }
+
+    .row .col .info {
+        font-size: 32px;
+    }
+
+    .herbert .content {
+        height: auto;
+    }
+
+    .content .text h1 {
+        margin-top : 50px;
+        font-size  : 50px;
+        font-weight: 600;
+    }
+
+    .content .text p {
+        font-size: 30px;
+    }
+
+    .subscribe-text h1 {
+        font-size  : 50px;
+        font-weight: 600;
+    }
+
+    .signup-form-input {
+        width: 200px;
+    }
+
+    .signup-form-btn {
+        width    : 100px;
+        font-size: 20px;
+    }
+
+    .social-links {
+        width: 100%;
+    }
+}
